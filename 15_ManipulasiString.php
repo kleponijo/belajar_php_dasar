@@ -23,3 +23,6 @@ echo $name[4] . PHP_EOL;
 
 echo "Hello " . $name . ", Selamat Belajar PHP" . PHP_EOL;
 echo "Hello $name, Selamat Belajar PHP" . PHP_EOL;
+
+$var = "Nadif";
+echo "this is {$var}s" . PHP_EOL;
