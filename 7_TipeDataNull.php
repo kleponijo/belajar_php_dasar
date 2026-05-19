@@ -14,7 +14,7 @@ echo $age;
 echo "\n";
 
 echo "Is name Null? : ";
-echo var_dump(is_null($name));
+var_dump(is_null($name));
 
 $contoh = "Nadif";
 unset($contoh);
