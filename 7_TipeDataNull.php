@@ -13,13 +13,10 @@ echo "Age : ";
 echo $age;
 echo "\n";
 
-echo "Is name Null? : ";
+echo "Is Name Null? : ";
 var_dump(is_null($name));
+echo "\n";
 
 $contoh = "Nadif";
 unset($contoh);
-
-$contoh = "Nadif";
-$contoh = null;
-
 var_dump(isset($contoh));

@@ -1,7 +1,7 @@
 <?php
 
-$name = "Zidan";
-$age = 30;
+$name = "Nadif";
+$age = 20;
 
 echo "Name : ";
 echo $name;
@@ -11,6 +11,7 @@ echo "Age : ";
 echo $age;
 echo "\n";
 
+// Variable Variables membuat nama variable dari value variabel
 $contoh = "nadif";
 $$contoh = "Zidan";
 
@@ -20,3 +21,4 @@ echo "\n";
 
 echo "nadif : ";
 echo $nadif;
+echo "\n";

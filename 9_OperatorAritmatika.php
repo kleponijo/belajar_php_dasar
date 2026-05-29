@@ -14,6 +14,3 @@ var_dump($resultPositive);
 
 $resultModulo = 100 % 3;
 var_dump($resultModulo);
-
-$resultPangkat = 10 ** 2;
-var_dump($resultPangkat);

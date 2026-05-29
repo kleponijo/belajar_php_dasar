@@ -10,19 +10,23 @@ if ($nilai >= 80 && $absen >= 80) {
 } else if ($nilai >= 60 && $absen >= 60) {
   echo "Nilai Anda C" . PHP_EOL;
 } else if ($nilai >= 50 && $absen >= 50) {
-  echo "Nilai Anda C" . PHP_EOL;
+  echo "Nilai Anda D" . PHP_EOL;
 } else {
   echo "Nilai Anda E" . PHP_EOL;
 }
 
 if ($nilai >= 80 && $absen >= 80) :
   echo "Nilai Anda A" . PHP_EOL;
- elseif ($nilai >= 70 && $absen >= 70) :
+elseif ($nilai >= 70 && $absen >= 70) :
   echo "Nilai Anda B" . PHP_EOL;
- elseif ($nilai >= 60 && $absen >= 60) :
+elseif ($nilai >= 60 && $absen >= 60) :
   echo "Nilai Anda C" . PHP_EOL;
- elseif ($nilai >= 50 && $absen >= 50) :
-  echo "Nilai Anda C" . PHP_EOL;
- else :
+elseif ($nilai >= 50 && $absen >= 50) :
+  echo "Nilai Anda D" . PHP_EOL;
+else :
   echo "Nilai Anda E" . PHP_EOL;
- endif;
+endif;
+
+// if akan dieksekusi jikai nilai atau di dalam ekspresion nya true, kalau tidak bool true maka kosong atau tidak dieksekusi.
+// else akan dieksekusi jika nilai if false.
+// kalau else if jika kondisi if awal false maka lanjut ke kondisi else if kalau masih false lanjut fallback terakhir else

@@ -2,32 +2,35 @@
 
 $nilai = "E";
 
+// rekomend
 switch ($nilai) {
   case "A":
-    echo "Selamat anda lulus dengan sangat baik" . PHP_EOL;
+    echo "Anda lulus dengan sangat baik" . PHP_EOL;
     break;
   case "B":
   case "C":
-    echo "Anda lulus" . PHP_EOL;
+    echo "Anda Lulus" . PHP_EOL;
     break;
   case "D":
-    echo "Anda tidak lulu" . PHP_EOL;
+    echo "Anda tidak lulus" . PHP_EOL;
     break;
   default:
-    echo "Mungkin anda salah jurusan" . PHP_EOL;
+    echo "Maaf mungkin anda salah jurusan" . PHP_EOL;
 }
 
 switch ($nilai):
   case "A":
-    echo "Selamat anda lulus dengan sangat baik" . PHP_EOL;
+    echo "Anda lulus dengan sangat baik" . PHP_EOL;
     break;
   case "B":
   case "C":
-    echo "Anda lulus" . PHP_EOL;
+    echo "Anda Lulus" . PHP_EOL;
     break;
   case "D":
-    echo "Anda tidak lulu" . PHP_EOL;
+    echo "Anda tidak lulus" . PHP_EOL;
     break;
   default:
-    echo "Mungkin anda salah jurusan" . PHP_EOL;
+    echo "Maaf mungkin anda salah jurusan" . PHP_EOL;
 endswitch;
+
+// perbandigan == kalo di if
