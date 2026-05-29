@@ -1,3 +1,3 @@
 <?php
 
-echo "Hello World!"; // dasar banget coyy
+echo "Hello World";
