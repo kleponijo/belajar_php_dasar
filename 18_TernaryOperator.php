@@ -1,6 +1,5 @@
 <?php
 
-$gender = "WANITA";
-$hi = $gender == "PRIA" ? "Hi Bro!" : "Hi Nona!";
-
+$gender = "PRIA";
+$hi = $gender == "PRIA" ? "Hai Bro" : "Hai Nona";
 echo $hi . PHP_EOL;

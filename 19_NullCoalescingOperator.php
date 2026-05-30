@@ -1,9 +1,9 @@
 <?php
 
 $data = [
-  // "action" => "Create",
+  "action" => "Create",
 ];
 
 $action = $data["action"] ?? "Nothing";
 
-echo $action;
+echo $action . PHP_EOL;
